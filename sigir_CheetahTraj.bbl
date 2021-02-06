@@ -1,0 +1,631 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{49}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{cd}{2020}]%
+        {cd}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Chengdu dataset}.
+\newblock
+  \bibinfo{howpublished}{\url{https://outreach.didichuxing.com/app-vue/dataList}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{fit}{2020}]%
+        {fitts_click}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Fitts’ Law: Tracking users’ clicks}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.interaction-design.org/literature/article/fitts-law-tracking-users-clicks}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{goo}{2020}]%
+        {googlemap}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Google map}.
+\newblock \bibinfo{howpublished}{\url{https://www.google.com/maps/preview}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{p3}{2020}]%
+        {p3}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{The open-source graphical library}.
+\newblock \bibinfo{howpublished}{\url{https://processing.org}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{pt}{2020}]%
+        {pt}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Porto dataset}.
+\newblock
+  \bibinfo{howpublished}{\url{http://www.geolink.pt/ecmlpkdd2015-challenge/dataset.html}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{sz}{2020}]%
+        {sz}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Shenzhen dataset}.
+\newblock \bibinfo{howpublished}{{http://jtys.sz.gov.cn/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{cod}{2020}]%
+        {code}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Source code}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/ChrisZcu/CheetahTraj}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{??}{ufm}{2020}]%
+        {ufmaps}
+ \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Unfolding maps}.
+\newblock \bibinfo{howpublished}{\url{http://unfoldingmaps.org/}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Adrienko and Adrienko}{Adrienko and
+  Adrienko}{2010}]%
+        {adrienko2010spatial}
+\bibfield{author}{\bibinfo{person}{Natalia Adrienko} {and}
+  \bibinfo{person}{Gennady Adrienko}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Spatial generalization and aggregation of massive
+  movement data}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{17},
+  \bibinfo{number}{2} (\bibinfo{year}{2010}), \bibinfo{pages}{205--219}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrienko and Andrienko}{Andrienko and
+  Andrienko}{2008}]%
+        {andrienko2008spatio}
+\bibfield{author}{\bibinfo{person}{Gennady Andrienko} {and}
+  \bibinfo{person}{Natalia Andrienko}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Spatio-temporal aggregation for visual analysis of
+  movements}. In \bibinfo{booktitle}{\emph{IEEE symposium on visual analytics
+  science and technology}}. \bibinfo{pages}{51--58}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrienko, Andrienko, Chen, Maciejewski, and
+  Zhao}{Andrienko et~al\mbox{.}}{2017}]%
+        {visualanalysis}
+\bibfield{author}{\bibinfo{person}{Gennady~L. Andrienko},
+  \bibinfo{person}{Natalia~V. Andrienko}, \bibinfo{person}{Wei Chen},
+  \bibinfo{person}{Ross Maciejewski}, {and} \bibinfo{person}{Ye Zhao}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Visual Analytics of Mobility and Transportation:
+  State of the Art and Further Research Directions}.
+\newblock \bibinfo{journal}{\emph{TITS}} \bibinfo{volume}{18},
+  \bibinfo{number}{8} (\bibinfo{year}{2017}), \bibinfo{pages}{2232--2249}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrienko, Andrienko, Drucker, Fekete, Fisher,
+  Idreos, Kraska, Li, Ma, Mackinlay, Oulasvirta, Schreck, Schumann,
+  Stonebraker, Auber, Bikakis, Chrysanthis, Papastefanatos, and
+  Sharaf}{Andrienko et~al\mbox{.}}{2020}]%
+        {bigchanvis}
+\bibfield{author}{\bibinfo{person}{Gennady~L. Andrienko},
+  \bibinfo{person}{Natalia~V. Andrienko}, \bibinfo{person}{Steven~Mark
+  Drucker}, \bibinfo{person}{Jean{-}Daniel Fekete}, \bibinfo{person}{Danyel
+  Fisher}, \bibinfo{person}{Stratos Idreos}, \bibinfo{person}{Tim Kraska},
+  \bibinfo{person}{Guoliang Li}, \bibinfo{person}{Kwan{-}Liu Ma},
+  \bibinfo{person}{Jock~D. Mackinlay}, \bibinfo{person}{Antti Oulasvirta},
+  \bibinfo{person}{Tobias Schreck}, \bibinfo{person}{Heidrun Schumann},
+  \bibinfo{person}{Michael Stonebraker}, \bibinfo{person}{David Auber},
+  \bibinfo{person}{Nikos Bikakis}, \bibinfo{person}{Panos~K. Chrysanthis},
+  \bibinfo{person}{George Papastefanatos}, {and} \bibinfo{person}{Mohamed~A.
+  Sharaf}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Big Data Visualization and Analytics: Future
+  Research Challenges and Emerging Applications}. In
+  \bibinfo{booktitle}{\emph{EDBT/ICDT joint conference}}
+  \emph{(\bibinfo{series}{{CEUR} Workshop Proceedings},
+  Vol.~\bibinfo{volume}{2578})}. \bibinfo{publisher}{CEUR-WS.org}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Battle, Stonebraker, and Chang}{Battle
+  et~al\mbox{.}}{2013}]%
+        {battle2013dynamic}
+\bibfield{author}{\bibinfo{person}{Leilani Battle}, \bibinfo{person}{Michael
+  Stonebraker}, {and} \bibinfo{person}{Remco Chang}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Dynamic reduction of query result sets for
+  interactive visualizaton}. In \bibinfo{booktitle}{\emph{IEEE BigData}}.
+  \bibinfo{pages}{1--8}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Borcan}{Borcan}{2012}]%
+        {borcan2012improving}
+\bibfield{author}{\bibinfo{person}{OM Borcan}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Improving visualization of trajectories by
+  dataset reduction and line simplification}}.
+\newblock \bibinfo{thesistype}{Master's\ thesis}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Borruso}{Borruso}{2008}]%
+        {borruso2008network}
+\bibfield{author}{\bibinfo{person}{Giuseppe Borruso}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Network density estimation: a GIS approach for
+  analysing point patterns in a network space}.
+\newblock \bibinfo{journal}{\emph{Transactions in GIS}} \bibinfo{volume}{12},
+  \bibinfo{number}{3} (\bibinfo{year}{2008}), \bibinfo{pages}{377--402}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chae, Thom, Jang, Kim, Ertl, and Ebert}{Chae
+  et~al\mbox{.}}{2014}]%
+        {chae2014public}
+\bibfield{author}{\bibinfo{person}{Junghoon Chae}, \bibinfo{person}{Dennis
+  Thom}, \bibinfo{person}{Yun Jang}, \bibinfo{person}{SungYe Kim},
+  \bibinfo{person}{Thomas Ertl}, {and} \bibinfo{person}{David~S Ebert}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Public behavior response analysis in disaster
+  events utilizing visual analytics of microblog data}.
+\newblock \bibinfo{journal}{\emph{Computers \& Graphics}}  \bibinfo{volume}{38}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{51--60}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chan, Xiao, Gerth, and Hanrahan}{Chan
+  et~al\mbox{.}}{2008}]%
+        {chan2008maintaining}
+\bibfield{author}{\bibinfo{person}{Sye-Min Chan}, \bibinfo{person}{Ling Xiao},
+  \bibinfo{person}{John Gerth}, {and} \bibinfo{person}{Pat Hanrahan}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Maintaining interactivity while exploring massive
+  time series}. In \bibinfo{booktitle}{\emph{IEEE Symposium on Visual Analytics
+  Science and Technology}}. \bibinfo{pages}{59--66}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Chen, Mei, Liu, Zhou, Chen, Gu, and
+  Ma}{Chen et~al\mbox{.}}{2014}]%
+        {chen2014visual}
+\bibfield{author}{\bibinfo{person}{Haidong Chen}, \bibinfo{person}{Wei Chen},
+  \bibinfo{person}{Honghui Mei}, \bibinfo{person}{Zhiqi Liu},
+  \bibinfo{person}{Kun Zhou}, \bibinfo{person}{Weifeng Chen},
+  \bibinfo{person}{Wentao Gu}, {and} \bibinfo{person}{Kwan-Liu Ma}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Visual abstraction and exploration of multi-class
+  scatterplots}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{20},
+  \bibinfo{number}{12} (\bibinfo{year}{2014}), \bibinfo{pages}{1683--1692}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Guo, and Wang}{Chen
+  et~al\mbox{.}}{2015}]%
+        {chen2015survey}
+\bibfield{author}{\bibinfo{person}{Wei Chen}, \bibinfo{person}{Fangzhou Guo},
+  {and} \bibinfo{person}{Fei-Yue Wang}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A survey of traffic data visualization}.
+\newblock \bibinfo{journal}{\emph{TITS}} \bibinfo{volume}{16},
+  \bibinfo{number}{6} (\bibinfo{year}{2015}), \bibinfo{pages}{2970--2984}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cormen, Leiserson, Rivest, and Stein}{Cormen
+  et~al\mbox{.}}{2009}]%
+        {algorithms}
+\bibfield{author}{\bibinfo{person}{Thomas~H Cormen}, \bibinfo{person}{Charles~E
+  Leiserson}, \bibinfo{person}{Ronald~L Rivest}, {and}
+  \bibinfo{person}{Clifford Stein}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Introduction to algorithms}}.
+\newblock \bibinfo{publisher}{MIT press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ding, Huang, Chaudhuri, Chakrabarti, and
+  Wang}{Ding et~al\mbox{.}}{2016}]%
+        {DBLP:conf/sigmod/DingHCC016}
+\bibfield{author}{\bibinfo{person}{Bolin Ding}, \bibinfo{person}{Silu Huang},
+  \bibinfo{person}{Surajit Chaudhuri}, \bibinfo{person}{Kaushik Chakrabarti},
+  {and} \bibinfo{person}{Chi Wang}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Sample + Seek: Approximating Aggregates with
+  Distribution Precision Guarantee}. In \bibinfo{booktitle}{\emph{SIGMOD}}.
+  \bibinfo{pages}{679--694}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dong, Bai, Kim, Chen, Liu, and Li}{Dong
+  et~al\mbox{.}}{2020}]%
+        {dong2020marviq}
+\bibfield{author}{\bibinfo{person}{Liming Dong}, \bibinfo{person}{Qiushi Bai},
+  \bibinfo{person}{Taewoo Kim}, \bibinfo{person}{Taiji Chen},
+  \bibinfo{person}{Weidong Liu}, {and} \bibinfo{person}{Chen Li}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Marviq: Quality-Aware Geospatial Visualization of
+  Range-Selection Queries Using Materialization}. In
+  \bibinfo{booktitle}{\emph{SIGMOD}}. \bibinfo{pages}{67--82}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ferreira, Poco, Vo, Freire, and
+  Silva}{Ferreira et~al\mbox{.}}{2013}]%
+        {ferreira2013visual}
+\bibfield{author}{\bibinfo{person}{Nivan Ferreira}, \bibinfo{person}{Jorge
+  Poco}, \bibinfo{person}{Huy~T Vo}, \bibinfo{person}{Juliana Freire}, {and}
+  \bibinfo{person}{Cl{\'a}udio~T Silva}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Visual exploration of big spatio-temporal urban
+  data: A study of new york city taxi trips}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{19},
+  \bibinfo{number}{12} (\bibinfo{year}{2013}), \bibinfo{pages}{2149--2158}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fujishige}{Fujishige}{2005}]%
+        {fujishige2005submodular}
+\bibfield{author}{\bibinfo{person}{Satoru Fujishige}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Submodular functions and optimization}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Guo}{Guo}{2009}]%
+        {guo2009flow}
+\bibfield{author}{\bibinfo{person}{Diansheng Guo}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Flow mapping and multivariate visualization of
+  large spatial interaction data}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{15},
+  \bibinfo{number}{6} (\bibinfo{year}{2009}), \bibinfo{pages}{1041--1048}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Guo, Wang, Yu, Zhao, and Yuan}{Guo
+  et~al\mbox{.}}{2011}]%
+        {guo2011tripvista}
+\bibfield{author}{\bibinfo{person}{Hanqi Guo}, \bibinfo{person}{Zuchao Wang},
+  \bibinfo{person}{Bowen Yu}, \bibinfo{person}{Huijing Zhao}, {and}
+  \bibinfo{person}{Xiaoru Yuan}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Tripvista: Triple perspective visual trajectory
+  analytics and its application on microscopic traffic data at a road
+  intersection}. In \bibinfo{booktitle}{\emph{IEEE Pacific Visualization
+  Symposium}}. \bibinfo{pages}{163--170}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hurter, Tissoires, and Conversy}{Hurter
+  et~al\mbox{.}}{2009}]%
+        {hurter2009fromdady}
+\bibfield{author}{\bibinfo{person}{Christophe Hurter},
+  \bibinfo{person}{Benjamin Tissoires}, {and} \bibinfo{person}{St{\'e}phane
+  Conversy}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Fromdady: Spreading aircraft trajectories across
+  views to support iterative queries}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{15},
+  \bibinfo{number}{6} (\bibinfo{year}{2009}), \bibinfo{pages}{1017--1024}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kim, Blais, Parameswaran, Indyk, Madden, and
+  Rubinfeld}{Kim et~al\mbox{.}}{2015}]%
+        {DBLP:journals/pvldb/KimBPIMR15}
+\bibfield{author}{\bibinfo{person}{Albert Kim}, \bibinfo{person}{Eric Blais},
+  \bibinfo{person}{Aditya~G. Parameswaran}, \bibinfo{person}{Piotr Indyk},
+  \bibinfo{person}{Samuel Madden}, {and} \bibinfo{person}{Ronitt Rubinfeld}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Rapid Sampling for Visualizations with Ordering
+  Guarantees}.
+\newblock \bibinfo{journal}{\emph{PVLDB}} \bibinfo{volume}{8},
+  \bibinfo{number}{5} (\bibinfo{year}{2015}), \bibinfo{pages}{521--532}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kr{\"u}ger, Thom, W{\"o}rner, Bosch, and
+  Ertl}{Kr{\"u}ger et~al\mbox{.}}{2013}]%
+        {kruger2013trajectorylenses}
+\bibfield{author}{\bibinfo{person}{Robert Kr{\"u}ger}, \bibinfo{person}{Dennis
+  Thom}, \bibinfo{person}{Michael W{\"o}rner}, \bibinfo{person}{Harald Bosch},
+  {and} \bibinfo{person}{Thomas Ertl}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{TrajectoryLenses--a set-based filtering and
+  exploration technique for long-term trajectory data}. In
+  \bibinfo{booktitle}{\emph{Computer Graphics Forum}},
+  Vol.~\bibinfo{volume}{32}. Wiley Online Library, \bibinfo{pages}{451--460}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kwon, Verma, Haas, and Demiralp}{Kwon
+  et~al\mbox{.}}{2017}]%
+        {kwon2017sampling}
+\bibfield{author}{\bibinfo{person}{Bum~Chul Kwon}, \bibinfo{person}{Janu
+  Verma}, \bibinfo{person}{Peter~J Haas}, {and} \bibinfo{person}{Cagatay
+  Demiralp}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Sampling for scalable visual analytics}.
+\newblock \bibinfo{journal}{\emph{IEEE Computer Graphics and Applications}}
+  \bibinfo{volume}{37}, \bibinfo{number}{1} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{100--108}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Weng, Li, Bao, Zheng, Qu, and Wu}{Liu
+  et~al\mbox{.}}{2016}]%
+        {liu2016smartadp}
+\bibfield{author}{\bibinfo{person}{Dongyu Liu}, \bibinfo{person}{Di Weng},
+  \bibinfo{person}{Yuhong Li}, \bibinfo{person}{Jie Bao}, \bibinfo{person}{Yu
+  Zheng}, \bibinfo{person}{Huamin Qu}, {and} \bibinfo{person}{Yingcai Wu}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Smartadp: Visual analytics of large-scale taxi
+  trajectories for selecting billboard locations}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{23},
+  \bibinfo{number}{1} (\bibinfo{year}{2016}), \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Pu, Luo, Qu, Ni, and Krishnan}{Liu
+  et~al\mbox{.}}{2013}]%
+        {liu2013vait}
+\bibfield{author}{\bibinfo{person}{Siyuan Liu}, \bibinfo{person}{Jiansu Pu},
+  \bibinfo{person}{Qiong Luo}, \bibinfo{person}{Huamin Qu},
+  \bibinfo{person}{Lionel~M Ni}, {and} \bibinfo{person}{Ramayya Krishnan}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{VAIT: A visual analytics system for metropolitan
+  transportation}.
+\newblock \bibinfo{journal}{\emph{TITS}} \bibinfo{volume}{14},
+  \bibinfo{number}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{1586--1596}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Park, Cafarella, and Mozafari}{Park
+  et~al\mbox{.}}{2016}]%
+        {park2016visualization}
+\bibfield{author}{\bibinfo{person}{Yongjoo Park}, \bibinfo{person}{Michael
+  Cafarella}, {and} \bibinfo{person}{Barzan Mozafari}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Visualization-aware sampling for very large
+  databases}. In \bibinfo{booktitle}{\emph{ICDE}}. \bibinfo{pages}{755--766}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Piringer, Tominski, Muigg, and
+  Berger}{Piringer et~al\mbox{.}}{2009}]%
+        {piringer2009multi}
+\bibfield{author}{\bibinfo{person}{Harald Piringer}, \bibinfo{person}{Christian
+  Tominski}, \bibinfo{person}{Philipp Muigg}, {and} \bibinfo{person}{Wolfgang
+  Berger}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{A multi-threading architecture to support
+  interactive visual exploration}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{15},
+  \bibinfo{number}{6} (\bibinfo{year}{2009}), \bibinfo{pages}{1113--1120}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Qin, Luo, Tang, and Li}{Qin
+  et~al\mbox{.}}{2020}]%
+        {qin2020making}
+\bibfield{author}{\bibinfo{person}{Xuedi Qin}, \bibinfo{person}{Yuyu Luo},
+  \bibinfo{person}{Nan Tang}, {and} \bibinfo{person}{Guoliang Li}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Making data visualization more efficient and
+  effective: A survey}.
+\newblock \bibinfo{journal}{\emph{The VLDB Journal}} \bibinfo{volume}{29},
+  \bibinfo{number}{1} (\bibinfo{year}{2020}), \bibinfo{pages}{93--117}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rapp, Peters, and Dachsbacher}{Rapp
+  et~al\mbox{.}}{2019}]%
+        {rapp2019void}
+\bibfield{author}{\bibinfo{person}{Tobias Rapp}, \bibinfo{person}{Christoph
+  Peters}, {and} \bibinfo{person}{Carsten Dachsbacher}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Void-and-Cluster Sampling of Large Scattered Data
+  and Trajectories}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{26},
+  \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{780--789}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shneiderman}{Shneiderman}{1984}]%
+        {shneiderman1984response}
+\bibfield{author}{\bibinfo{person}{Ben Shneiderman}.}
+  \bibinfo{year}{1984}\natexlab{}.
+\newblock \showarticletitle{Response time and display rate in human performance
+  with computers}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} \bibinfo{volume}{16},
+  \bibinfo{number}{3} (\bibinfo{year}{1984}), \bibinfo{pages}{265--285}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tang, Yiu, Mouratidis, and Wang}{Tang
+  et~al\mbox{.}}{2017}]%
+        {tang2017efficient}
+\bibfield{author}{\bibinfo{person}{Bo Tang}, \bibinfo{person}{Man~Lung Yiu},
+  \bibinfo{person}{Kyriakos Mouratidis}, {and} \bibinfo{person}{Kai Wang}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Efficient motif discovery in spatial trajectories
+  using discrete fr{\'e}chet distance}. In \bibinfo{booktitle}{\emph{EDBT}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{van Kreveld}, {L{\"o}ffler}, and
+  {Wiratma}}{{van Kreveld} et~al\mbox{.}}{2018}]%
+        {2018arXiv180303550V}
+\bibfield{author}{\bibinfo{person}{Marc {van Kreveld}},
+  \bibinfo{person}{Maarten {L{\"o}ffler}}, {and} \bibinfo{person}{Lionov
+  {Wiratma}}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{On Optimal Polyline Simplification using the
+  Hausdorff and Fr{\'e}chet Distance}}.
+\newblock \bibinfo{journal}{\emph{arXiv e-prints}}, Article
+  \bibinfo{articleno}{arXiv:1803.03550} (\bibinfo{date}{March}
+  \bibinfo{year}{2018}), \bibinfo{numpages}{arXiv:1803.03550}~pages.
+\newblock
+\showeprint[arxiv]{1803.03550}~[cs.CG]
+
+
+\bibitem[\protect\citeauthoryear{Von~Landesberger, Brodkorb, Roskosch,
+  Andrienko, Andrienko, and Kerren}{Von~Landesberger et~al\mbox{.}}{2015}]%
+        {von2015mobilitygraphs}
+\bibfield{author}{\bibinfo{person}{Tatiana Von~Landesberger},
+  \bibinfo{person}{Felix Brodkorb}, \bibinfo{person}{Philipp Roskosch},
+  \bibinfo{person}{Natalia Andrienko}, \bibinfo{person}{Gennady Andrienko},
+  {and} \bibinfo{person}{Andreas Kerren}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Mobilitygraphs: Visual analysis of mass mobility
+  dynamics via spatio-temporal graphs and clustering}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{22},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{11--20}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Vrotsou}, {Janetzko}, {Navarra}, {Fuchs},
+  {Spretke}, {Mansmann}, {Andrienko}, and {Andrienko}}{{Vrotsou}
+  et~al\mbox{.}}{2015}]%
+        {6851202}
+\bibfield{author}{\bibinfo{person}{K. {Vrotsou}}, \bibinfo{person}{H.
+  {Janetzko}}, \bibinfo{person}{C. {Navarra}}, \bibinfo{person}{G. {Fuchs}},
+  \bibinfo{person}{D. {Spretke}}, \bibinfo{person}{F. {Mansmann}},
+  \bibinfo{person}{N. {Andrienko}}, {and} \bibinfo{person}{G. {Andrienko}}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{SimpliFly: A Methodology for Simplification and
+  Thematic Enhancement of Trajectories}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{21},
+  \bibinfo{number}{1} (\bibinfo{year}{2015}), \bibinfo{pages}{107--121}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang, Ye, Lu, Yuan, Qu, Yuan, and Wu}{Wang
+  et~al\mbox{.}}{2014}]%
+        {wang2014visual}
+\bibfield{author}{\bibinfo{person}{Zuchao Wang}, \bibinfo{person}{Tangzhi Ye},
+  \bibinfo{person}{Min Lu}, \bibinfo{person}{Xiaoru Yuan},
+  \bibinfo{person}{Huamin Qu}, \bibinfo{person}{Jacky Yuan}, {and}
+  \bibinfo{person}{Qianliang Wu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Visual exploration of sparse traffic trajectory
+  data}.
+\newblock \bibinfo{journal}{\emph{TVCG}} \bibinfo{volume}{20},
+  \bibinfo{number}{12} (\bibinfo{year}{2014}), \bibinfo{pages}{1813--1822}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wood, Dykes, and Slingsby}{Wood
+  et~al\mbox{.}}{2010}]%
+        {wood2010visualisation}
+\bibfield{author}{\bibinfo{person}{Jo Wood}, \bibinfo{person}{Jason Dykes},
+  {and} \bibinfo{person}{Aidan Slingsby}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Visualisation of origins, destinations and flows
+  with OD maps}.
+\newblock \bibinfo{journal}{\emph{The Cartographic Journal}}
+  \bibinfo{volume}{47}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{117--129}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yang, Zhang, Tang, and Zhu}{Yang
+  et~al\mbox{.}}{2019}]%
+        {yang2019vaite}
+\bibfield{author}{\bibinfo{person}{Chuang Yang}, \bibinfo{person}{Yilan Zhang},
+  \bibinfo{person}{Bo Tang}, {and} \bibinfo{person}{Min Zhu}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Vaite: A Visualization-Assisted Interactive Big
+  Urban Trajectory Data Exploration System}. In
+  \bibinfo{booktitle}{\emph{ICDE}}. \bibinfo{pages}{2036--2039}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yang, Zhao, and Lu}{Yang
+  et~al\mbox{.}}{2016}]%
+        {yang2016exploring}
+\bibfield{author}{\bibinfo{person}{Xiping Yang}, \bibinfo{person}{Zhiyuan
+  Zhao}, {and} \bibinfo{person}{Shiwei Lu}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Exploring spatial-temporal patterns of urban human
+  mobility hotspots}.
+\newblock \bibinfo{journal}{\emph{Sustainability}} \bibinfo{volume}{8},
+  \bibinfo{number}{7} (\bibinfo{year}{2016}), \bibinfo{pages}{674}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yu and Sarwat}{Yu and Sarwat}{2020}]%
+        {yu2020turbocharging}
+\bibfield{author}{\bibinfo{person}{Jia Yu} {and} \bibinfo{person}{Mohamed
+  Sarwat}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Turbocharging Geospatial Visualization Dashboards
+  via a Materialized Sampling Cube Approach}. In
+  \bibinfo{booktitle}{\emph{ICDE}}. \bibinfo{pages}{1165--1176}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhang, Ding, Yang, Liu, Fan, and Shen}{Zhang
+  et~al\mbox{.}}{2018}]%
+        {zhang2018trajectory}
+\bibfield{author}{\bibinfo{person}{Dongxiang Zhang}, \bibinfo{person}{Mengting
+  Ding}, \bibinfo{person}{Dingyu Yang}, \bibinfo{person}{Yi Liu},
+  \bibinfo{person}{Ju Fan}, {and} \bibinfo{person}{Heng~Tao Shen}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Trajectory simplification: an experimental study
+  and quality analysis}.
+\newblock \bibinfo{journal}{\emph{VLDB}} \bibinfo{volume}{11},
+  \bibinfo{number}{9} (\bibinfo{year}{2018}), \bibinfo{pages}{934--946}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zheng, Zheng, Xie, and Yang}{Zheng
+  et~al\mbox{.}}{2010}]%
+        {zheng2010collaborative}
+\bibfield{author}{\bibinfo{person}{Vincent~W Zheng}, \bibinfo{person}{Yu
+  Zheng}, \bibinfo{person}{Xing Xie}, {and} \bibinfo{person}{Qiang Yang}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Collaborative location and activity recommendations
+  with GPS history data}. In \bibinfo{booktitle}{\emph{WWW}}.
+  \bibinfo{pages}{1029--1038}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zheng and Xie}{Zheng and Xie}{2011}]%
+        {zheng2011learning}
+\bibfield{author}{\bibinfo{person}{Yu Zheng} {and} \bibinfo{person}{Xing Xie}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Learning travel recommendations from user-generated
+  GPS traces}.
+\newblock \bibinfo{journal}{\emph{TIST}} \bibinfo{volume}{2},
+  \bibinfo{number}{1} (\bibinfo{year}{2011}), \bibinfo{pages}{1--29}.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,159 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sigir_CheetahTraj.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: ref.bib
+Repeated entry---line 633 of file ref.bib
+ : @article{chen2014visual
+ :                        ,
+I'm skipping whatever remains of this entry
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in sz
+Warning--no author, editor, organization, or key in sz
+Warning--to sort, need author or key in sz
+Warning--no key, author in googlemap
+Warning--no author, editor, organization, or key in googlemap
+Warning--to sort, need author or key in googlemap
+Warning--no key, author in fitts_click
+Warning--no author, editor, organization, or key in fitts_click
+Warning--to sort, need author or key in fitts_click
+Warning--no key, author in pt
+Warning--no author, editor, organization, or key in pt
+Warning--to sort, need author or key in pt
+Warning--no key, author in cd
+Warning--no author, editor, organization, or key in cd
+Warning--to sort, need author or key in cd
+Warning--no key, author in ufmaps
+Warning--no author, editor, organization, or key in ufmaps
+Warning--to sort, need author or key in ufmaps
+Warning--no key, author in p3
+Warning--no author, editor, organization, or key in p3
+Warning--to sort, need author or key in p3
+Warning--no key, author in code
+Warning--no author, editor, organization, or key in code
+Warning--to sort, need author or key in code
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--no key, author in cd
+Warning--no key, author in cd
+Warning--no key, author in code
+Warning--no key, author in code
+Warning--no key, author in fitts_click
+Warning--no key, author in fitts_click
+Warning--no key, author in googlemap
+Warning--no key, author in googlemap
+Warning--no key, author in p3
+Warning--no key, author in p3
+Warning--no key, author in pt
+Warning--no key, author in pt
+Warning--no key, author in sz
+Warning--no key, author in sz
+Warning--no key, author in ufmaps
+Warning--no key, author in ufmaps
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in cd
+Warning--no author, editor, organization, or key in cd
+Warning--empty author in cd
+Warning--no key, author in fitts_click
+Warning--no author, editor, organization, or key in fitts_click
+Warning--empty author in fitts_click
+Warning--no key, author in googlemap
+Warning--no author, editor, organization, or key in googlemap
+Warning--empty author in googlemap
+Warning--no key, author in p3
+Warning--no author, editor, organization, or key in p3
+Warning--empty author in p3
+Warning--no key, author in pt
+Warning--no author, editor, organization, or key in pt
+Warning--empty author in pt
+Warning--no key, author in sz
+Warning--no author, editor, organization, or key in sz
+Warning--empty author in sz
+Warning--no key, author in code
+Warning--no author, editor, organization, or key in code
+Warning--empty author in code
+Warning--no key, author in ufmaps
+Warning--no author, editor, organization, or key in ufmaps
+Warning--empty author in ufmaps
+Warning--empty publisher in andrienko2008spatio
+Warning--empty address in andrienko2008spatio
+Warning--empty address in bigchanvis
+Warning--page numbers missing in both pages and numpages fields in bigchanvis
+Warning--empty publisher in battle2013dynamic
+Warning--empty address in battle2013dynamic
+Warning--empty school in borcan2012improving
+Warning--empty publisher in chan2008maintaining
+Warning--empty address in chan2008maintaining
+Warning--empty address in algorithms
+Warning--empty publisher in DBLP:conf/sigmod/DingHCC016
+Warning--empty address in DBLP:conf/sigmod/DingHCC016
+Warning--empty publisher in dong2020marviq
+Warning--empty address in dong2020marviq
+Warning--empty publisher in fujishige2005submodular
+Warning--empty address in fujishige2005submodular
+Warning--empty publisher in guo2011tripvista
+Warning--empty address in guo2011tripvista
+Warning--can't use both volume and number fields in kruger2013trajectorylenses
+Warning--empty publisher in kruger2013trajectorylenses
+Warning--empty address in kruger2013trajectorylenses
+Warning--empty publisher in park2016visualization
+Warning--empty address in park2016visualization
+Warning--empty publisher in tang2017efficient
+Warning--empty address in tang2017efficient
+Warning--page numbers missing in both pages and numpages fields in tang2017efficient
+Warning--no number and no volume in 2018arXiv180303550V
+Warning--articleno or eid field, but no numpages field, in 2018arXiv180303550V
+Warning--empty publisher in yang2019vaite
+Warning--empty address in yang2019vaite
+Warning--empty publisher in yu2020turbocharging
+Warning--empty address in yu2020turbocharging
+Warning--empty publisher in zheng2010collaborative
+Warning--empty address in zheng2010collaborative
+You've used 49 entries,
+            5959 wiz_defined-function locations,
+            1577 strings with 22977 characters,
+and the built_in function-call counts, 60791 in all, are:
+= -- 7702
+> -- 2372
+< -- 0
++ -- 787
+- -- 788
+* -- 4503
+:= -- 5983
+add.period$ -- 237
+call.type$ -- 49
+change.case$ -- 376
+chr.to.int$ -- 125
+cite$ -- 179
+duplicate$ -- 5204
+empty$ -- 3667
+format.name$ -- 912
+if$ -- 14875
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 168
+newline$ -- 419
+num.names$ -- 328
+pop$ -- 2063
+preamble$ -- 1
+purify$ -- 816
+quote$ -- 0
+skip$ -- 1793
+stack$ -- 0
+substring$ -- 4462
+swap$ -- 579
+text.length$ -- 51
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1090
+warning$ -- 98
+while$ -- 310
+width$ -- 0
+write$ -- 851
+(There was 1 error message)
