@@ -45,8 +45,6 @@ These works divide the {entire area} into basic units and visualize the aggregat
 \stitle{Sampling-based techniques} Sampling is widely used in both visualization and database communities ~\cite{battle2013dynamic,rapp2019void,chen2014visual,yu2020turbocharging,park2016visualization,qin2020making,DBLP:conf/sigmod/DingHCC016,DBLP:journals/pvldb/KimBPIMR15}. These works try to reduce the dataset to a subset with some special characteristics: such as blue noise property~\cite{rapp2019void}, multi-class property~\cite{chen2014visual} or maximize some user-defined quality~\cite{yu2020turbocharging}. The work most relevant to ours is~\cite{park2016visualization}, which is designed for scatter plots (a form of point-based visualization). It reduces the number of points in a plot while preserving the spatial distribution of the points in the original dataset. The techniques in~\cite{park2016visualization} cannot be applied to our trajectory visualization problem
 as trajectory is more complex than individual scatter points (e.g., the order of GPS points is essential and the trajectories could have a large variance in length). Some works simplify a trajectory by sampling important points to reduce data size~\cite{zhang2018trajectory,2018arXiv180303550V} or alleviate visual clutter~\cite{borcan2012improving, 6851202}. These works are orthogonal to ours as we are sampling complete trajectories instead of points in a trajectory.
 
-
-
 \stitle{Caching-based and other techniques}
 Chan et al. propose ATLAS~\cite{chan2008maintaining}, which utilizes caching for efficient data communication between server and client.
 ATLAS also exploits a powerful multi-core server to accelerate visual analysis tasks in both the middle-layer and back-end.
