@@ -1,18 +1,18 @@
 \section{The $\avats$ Framework}\label{sec:cheetahtraj}
-Recall that our goal is to provide high quality trajectory visualization for any user selected region query with low latency.
+Recall that our goal is to provide high quality trajectory visualization for any user selected query region with low latency.
 In this section, we first introduce the motivation behind the $\avats$ framework, then present its two key procedures: \textit{index building}, and \textit{query processing}.
 
 \stitle{Motivation of $\avats$}
 Given a user selected region query $\query$, a naive visualization procedure with our sampling algorithms works as follows:
 it first retrieves all trajectories (or trajectory segments) that are in this region (a.k.a, $\wpts$ query~\cite{kruger2013trajectorylenses}),
-then it invokes $\vatss$ (or $\vats$) to obtain a set $\oR$ of sample trajectories, and finally the trajectories in $\oR$ are rendered to the canvas (e.g., displaying device) as the visualization result.
+then it invokes $\vatss$ (or $\vats$) to obtain a set $\oR$ of sample trajectories, and finally the trajectories in $\oR$ are rendered to the canvas (e.g., displaying device).
 $\vatss$ has short \textit{visualization time} as it effectively reduces the number of processed locations by sampling. However, $\vatss$ has a long \textit{sampling time} (e.g., several seconds to tens of seconds) even with our performance optimization techniques.
 Hence, the naive procedure can not achieve low latency for large-scale trajectory visualization. To tackle this problem, we propose the $\avats$ framework as illustrated in Figure~\ref{fig:framework}.  $\avats$ consists of three modules: (i) \textsf{index building}, (ii) \textsf{query processing}, and (iii) \textsf{result visualization}, we elaborate them as follows.
 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.42\textwidth]{pictures/cheetahtraj}
+	\includegraphics[width=0.4\textwidth]{pictures/cheetahtraj}
     \trim
     \caption{The $\avats$ framework}
     \label{fig:framework}
@@ -21,8 +21,7 @@ Hence, the naive procedure can not achieve low latency for large-scale trajector
 
 
 \subsection{Index Building}~\label{sec:index}
-The key idea of $\avats$ is to conduct $\vatss$ sampling in the offline \emph{index building} phase such that the sampling results can be used directly for online visualization.
-Specifically, we propose an inverted list augmented quad-tree index ($\invQ$) to handle arbitrary query region.
+The key idea of $\avats$ is to conduct $\vatss$ sampling in the offline \emph{index building} phase such that the sampling results can be used for online visualization. To handle arbitrary query region, we develop an inverted list augmented quad-tree index ($\invQ$).
 
 As shown in the example $\invQ$-tree index $\II$ at the bottom of Figure~\ref{fig:framework}, we exploit a quad-tree to recursively partition the entire area (spanned by the trajectory dataset) into smaller areas and manage each area with a tree node.
 For each tree node, we run $\vatss$ using the trajectories (or trajectory segments) in its associated area as input to compute the \textit{visualization quality inverted lists} for this area. $\mathcal{L}_0$ and $\mathcal{L}_{64}$ in Figure~\ref{fig:framework} are two example visualization quality inverted lists, in which the subscripts are the values of $\delta$ for this list.
@@ -33,7 +32,8 @@ $t_{i4}$'s cumulative quality is $0.23\%$, which means that the quality achieved
 
 
 \subsection{Query Processing}~\label{sec:query}
-For a region visualization query $\query$ with quality threshold $\tau$, Algorithm~\ref{alg:query} summarizes the $\mathsf{Query}$ subroutine, which finds a quality guaranteed trajectory sample set $\oR$. The algorithm starts by invoking $\mathsf{Query}(\query, \tau, \II.root, \oR=\emptyset)$, i.e., from the root of $\invQ$-tree index $\II$ with an empty result set $\oR$. Then Algorithm~\ref{alg:query} transverses the tree nodes recursively. If node   $\mathcal{N}$ is a leaf node or its associated area is entirely contained in the query region, we retrieve a quality guaranteed trajectory set by calling subroutine $\mathsf{findRet}()$, which conducts binary search on the proper inverted list in $\mathcal{N}$ (Line~\ref{line:ret}). Otherwise, we call $\mathsf{Query}()$ on the four children nodes of $\mathcal{N}$ ( Line~\ref{line:valls}-\ref{line:valle}).
+For a region visualization query $\query$ with quality threshold $\tau$, Algorithm~\ref{alg:query} summarizes the $\mathsf{Query}$ subroutine, which finds a quality guaranteed trajectory sample set $\oR$. The algorithm starts by invoking $\mathsf{Query}(\query, \tau, \II.root, \oR=\emptyset)$, i.e., from the root of $\invQ$-tree index $\II$ with an empty result set $\oR$, and then transverses the tree nodes recursively. If node   $\mathcal{N}$ is a leaf node or its associated area is entirely contained in the query region, we retrieve a quality guaranteed trajectory set by calling subroutine $\mathsf{findRet}()$, which conducts binary search on the proper inverted list in $\mathcal{N}$ (Line~\ref{line:ret}). Otherwise, we call $\mathsf{Query}()$ on the four children nodes of $\mathcal{N}$ ( Line~\ref{line:valls}-\ref{line:valle}). Note that Some trajectories in $\oR$, the result returned by $\mathsf{Query}()$ for region $\query$, may have segments outside $\mathcal{Q}$,
+we conduct a way point query $\wpts(\query, \oR)$ to filter these segments before visualization.
 
 
 \begin{algorithm}
@@ -51,18 +51,15 @@ For a region visualization query $\query$ with quality threshold $\tau$, Algorit
 	\end{algorithmic}
 \end{algorithm}
 
-Some trajectories in $\oR$, the result returned by $\mathsf{Query}()$ for region $\query$, may have segments outside $\mathcal{Q}$,
-we conduct a way point query $\wpts(\query, \oR)$ to filter these segments before visualization.
+
 %
 
 \stitle{Correctness analysis}
 We first show that $\avats$ meets the visualization quality requirement in Theorem~\ref{theorem:quality} as follows.
-
 \begin{theorem}\label{theorem:quality}
 If all selected nodes in the $\invQ$-tree index $\II$ are entirely contained in the query region $\query$,
 then the result set $\oR$ returned by Algorithm~\ref{alg:query} satisfies that $\QQ(\oR) \ge \tau$.
 \end{theorem}
-
 \begin{proof}
 Suppose query region $\query$ selects areas $\mathcal{A}_1,\!\mathcal{A}_2,\!\cdots,\!\mathcal{A}_K$,
 these areas satisfy $\mathcal{A}_i \cap \mathcal{A}_j = \emptyset$ for $i\neq j$, and $\cup_{k=1}^{K}\mathcal{A}_k=\mathcal{Q}$.

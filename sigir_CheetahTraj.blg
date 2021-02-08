@@ -1,18 +1,12 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: sigir_CheetahTraj.aux
-Reallocating 'name_of_file' (item size: 1) to 21 items.
 The style file: ACM-Reference-Format.bst
-Reallocating 'name_of_file' (item size: 1) to 4 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: ref.bib
-Repeated entry---line 633 of file ref.bib
- : @article{chen2014visual
- :                        ,
-I'm skipping whatever remains of this entry
-Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no key, author in sz
 Warning--no author, editor, organization, or key in sz
 Warning--to sort, need author or key in sz
@@ -37,9 +31,9 @@ Warning--to sort, need author or key in p3
 Warning--no key, author in code
 Warning--no author, editor, organization, or key in code
 Warning--to sort, need author or key in code
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--no key, author in cd
 Warning--no key, author in cd
 Warning--no key, author in code
@@ -56,7 +50,7 @@ Warning--no key, author in sz
 Warning--no key, author in sz
 Warning--no key, author in ufmaps
 Warning--no key, author in ufmaps
-Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no key, author in cd
 Warning--no author, editor, organization, or key in cd
 Warning--empty author in cd
@@ -113,47 +107,50 @@ Warning--empty publisher in yang2019vaite
 Warning--empty address in yang2019vaite
 Warning--empty publisher in yu2020turbocharging
 Warning--empty address in yu2020turbocharging
+Warning--can't use both volume and number fields in zeng2019route
+Warning--empty publisher in zeng2019route
+Warning--empty address in zeng2019route
 Warning--empty publisher in zheng2010collaborative
 Warning--empty address in zheng2010collaborative
-You've used 49 entries,
+You've used 50 entries,
             5959 wiz_defined-function locations,
-            1577 strings with 22977 characters,
-and the built_in function-call counts, 60791 in all, are:
-= -- 7702
-> -- 2372
+            1581 strings with 23146 characters,
+and the built_in function-call counts, 62147 in all, are:
+= -- 7843
+> -- 2424
 < -- 0
-+ -- 787
-- -- 788
-* -- 4503
-:= -- 5983
-add.period$ -- 237
-call.type$ -- 49
-change.case$ -- 376
-chr.to.int$ -- 125
-cite$ -- 179
-duplicate$ -- 5204
-empty$ -- 3667
-format.name$ -- 912
-if$ -- 14875
++ -- 804
+- -- 804
+* -- 4606
+:= -- 6117
+add.period$ -- 242
+call.type$ -- 50
+change.case$ -- 384
+chr.to.int$ -- 126
+cite$ -- 183
+duplicate$ -- 5334
+empty$ -- 3757
+format.name$ -- 932
+if$ -- 15193
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 168
-newline$ -- 419
-num.names$ -- 328
-pop$ -- 2063
+missing$ -- 173
+newline$ -- 426
+num.names$ -- 336
+pop$ -- 2116
 preamble$ -- 1
-purify$ -- 816
+purify$ -- 833
 quote$ -- 0
-skip$ -- 1793
+skip$ -- 1841
 stack$ -- 0
-substring$ -- 4462
-swap$ -- 579
+substring$ -- 4568
+swap$ -- 594
 text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1090
-warning$ -- 98
-while$ -- 310
+type$ -- 1120
+warning$ -- 101
+while$ -- 317
 width$ -- 0
-write$ -- 851
-(There was 1 error message)
+write$ -- 868
+(There were 101 warnings)

@@ -1,25 +1,25 @@
 \section{Problem Formulation}\label{sec:pro}
 In this section,
-we first formally define the \textit{quality optimal sampling problem} (\prob{}) for large-scale trajectory data visualization in Section~\ref{sec:def},
-and then show that it is NP-hard to solve the problem exactly in Section~\ref{sec:hard}.
+we first formally define the \textit{quality optimal sampling problem} (\prob{}) for large-scale trajectory data visualization,
+and then show that it is NP-hard to solve the problem exactly.
 
 \begin{figure}
 	\centering
 	\small
-	\includegraphics[width=0.45\columnwidth]{pictures/problemsolveing/RenderedPixels}  
+	\includegraphics[width=0.5\columnwidth]{pictures/problemsolveing/RenderedPixels}  
     \trim
 	\caption{Illustration of line-based trajectory visualization.} \label{fig:line}
     \trim \trim
 \end{figure}
 
-
+%Sampling reduces the number of trajectories and location points to process, and thus shortens the visualization time.
 \subsection{Problem Definition}\label{sec:def}
 
 We motivate our definition of the \textit{visualization quality function} by introducing how line-based trajectory visualization works.
 As elaborated earlier, a trajectory contains a sequence of 2-dimensional locations.
 Given an empty canvas (i.e., the screen of a displaying device) with pixels indexed by horizontal and vertical coordinates (i.e., $x$ and $y$), line-based trajectory visualization connects consecutive locations in each trajectory with polylines and marks the pixels passed by these polylines (with a color different from the background).
 As shown in Figure~\ref{fig:line}(A), the result of line-based trajectory visualization can be regarded as a 2-dimensional array of boolean variables with 1 indicting that a pixel has been marked.
-Alternatively, we can treat a visualization result as a set $\mathcal{S}=\{(x_i, y_i)\}_{i=1}^{n}$ that contains all marked pixels.
+Thus, we can treat a visualization result as a set $\mathcal{S}=\{(x_i, y_i)\}_{i=1}^{n}$ that contains all marked pixels.
 This observation leads to the following definition of visualization quality function
 \begin{equation}\label{eqref:loss}
 \QQ(\mathcal{S}, \mathcal{S}')=\frac{|\mathcal{S} \cap \mathcal{S}'|}{|\mathcal{S}|},
@@ -28,7 +28,6 @@ in which $|.|$ measures the cardinality of a set, $\mathcal{S}$ is the visualiza
 As $\mathcal{S}'\subseteq \mathcal{S}$, $\QQ(\mathcal{S}, \mathcal{S}')$ essentially measures the ratio of the pixels in the ground-truth visualization $\mathcal{S}$ that are marked in the approximate visualization $\mathcal{S}'$.
 %\footnote{For more general cases with $\mathcal{V}'\not\subset \mathcal{V}$, the quality function can be defined as $\mathsf{q}(\mathcal{V}, \mathcal{V}')\!=\!\frac{|\mathcal{V}-\mathcal{V}'|}{|\mathcal{V}|}$, in which set $\mathcal{V}^\star\!=\!\mathcal{V}-\mathcal{V}'$ contains all distinct elements between $\mathcal{V}$ and $\mathcal{V}'$.}.
 This definition matches human visual perception and the approximate visualization $\mathcal{S}'$ will look similar to $\mathcal{S}$ if $\QQ(\mathcal{S}, \mathcal{S}')$ is large.
-Sampling reduces the number of trajectories and location points to process, and thus shortens the visualization time.
 With the quality function, we define the quality optimal sampling problem as follows.
 
 \begin{problem}[Quality Optimal Sampling Problem, \prob{}]\label{prob:def}
@@ -39,10 +38,7 @@ the quality optimal sampling problem finds a set $\mathcal{R}$ that satisfies
 	\max_{\mathcal{R} \subseteq \mathcal{T}, |\mathcal{R}| = \lceil \alpha |\mathcal{T}| \rceil} \QQ(\VV(\mathcal{T}), \VV(\mathcal{R}))=\frac{|\VV(\mathcal{T}) \cap \VV(\mathcal{R})|}{|\VV(\mathcal{T})|}.
 	\end{equation}
 \end{problem}
-Note that we are sampling \textit{complete trajectories} instead of \textit{individual locations} in \prob{} such that the lines and orientations in the trajectories are persevered.
-
-Intuitively, given a visualization quality threshold $\tau$, the \prob{} problem can be transformed to find the sampled trajectory set $\mathcal{R}$ with the smallest $\alpha$,
-under which provides the quality requirement holds, i.e, $\QQ(\VV(\mathcal{T}), \VV(\mathcal{R})) \!\ge\! \tau$.
+Note that we are sampling \textit{complete trajectories} instead of \textit{individual locations} in \prob{} such that the lines and orientations in the trajectories are persevered. Given a visualization quality threshold $\tau$, the \prob{} problem can be transformed to find the sampled trajectory set $\mathcal{R}$ with the smallest $\alpha$ that meets the quality requirement, i.e, $\QQ(\VV(\mathcal{T}), \VV(\mathcal{R})) \!\ge\! \tau$.
 
 
 
