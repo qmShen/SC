@@ -1,11 +1,11 @@
 \section{Introduction}\label{sec:intro}
+
 The ubiquity of location acquisition devices leads to an explosive growth of movement data (i.e., trajectories), e.g., for vehicles, shared bikes and pedestrians. Visualizing these large-scale trajectory data is crucial for many smart city applications~\cite{wang2014visual, tang2017efficient, zheng2011learning} and location-based services~\cite{liu2016smartadp, zheng2010collaborative}. Among various visualization methods, line-based trajectory visualization, which connects the locations of a moving object by polylines, is widely adopted for spatial-temporal data analytics~\cite{chen2015survey, visualanalysis, bigchanvis}. To support interactive exploration on trajectory data, it is crucial to conduct line-based trajectory visualization for an arbitrary region with high quality and low latency.
 
 %\stitle{Long visualization time for large-scale datasets}
 \stitle{Challenge for visualizing full datasets} To visualize the trajectories in a target region $\query$, a natural solution is to find the trajectories in it and visualize all these trajectories ($\full$ for short). However, $\full$ may suffer from a long visualization time as the trajectory datasets can be extremely large. For example, Shenzhen has 24,237 taxis which collectively generate more than 7.72 million GPS locations each day~\cite{sz}. Our profiling results in Table~\ref{tab:gpu}\footnote{Mapping is the time to map the GPS points to the screen points, and rendering is the time to render the graphics. The details can be found in Section~\ref{sec:exp}.} also show that visualizing the 1,000,000 taxi trajectories needs 16.154 seconds which is far more than 2 seconds delay suggested for interactive exploration~\cite{shneiderman1984response}.
 %However, interactive visual exploration typically requires the visualization to be generated in less than 1 second~\cite{shneiderman1984response}. 
 Another problem of applying $\full$ on large-scale datasets is~\textit{visual clutter}~\cite{kwon2017sampling}, where there are too many points in the visualization such that it is difficult for users to gain insights. One such example can be found in Figure~\ref{fig:overview}(A), for which it is difficult to recognize the road networks in the dense center region.   
-
 
 %We provide an example Figure~\ref{fig:overview}(A) for the \pt{} dataset, for which it is almost impossible to recognize the road networks in the dense region at the center.
 
@@ -14,16 +14,16 @@ Another problem of applying $\full$ on large-scale datasets is~\textit{visual cl
 	\small
 	\caption{Visualization time on the \pt{} dataset (in seconds)}
 	\vspace{-2mm}
-    \trim
+	\trim
 	\begin{tabular}{|c|c|c|c|c|} \hline
 		No. of  & No. of & Mapping & Rendering & Total \\
-         trajectories &  GPS points & time & time & time \\ \hline
+		trajectories &  GPS points & time & time & time \\ \hline
 		1,000& 31,300 & 0.027 & 0.003 & 0.03 \\ \hline
 		10,000& 31,6531 & 0.169 & 0.005 & 0.174\\ \hline
 		100,000& 316,7120 & 1.701 & 0.057 & 1.758 \\ \hline
 		1,000,000& 31,646,379 & 15.562 & 0.592 & 16.154 \\ \hline
 	\end{tabular}	\label{tab:gpu}
-    \trim \trim 
+	\trim \trim 
 \end{table}
 
 \if 0
