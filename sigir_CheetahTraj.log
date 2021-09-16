@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.20)  5 SEP 2021 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.20)  16 SEP 2021 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,44 +1044,44 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 270.
 (./sections/Introduction.tex
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 6.
-
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 6.
+(Font)              scaled to size 6.0pt on input line 8.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 6.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 9.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 36.135pt on input line 9.
-LaTeX Font Info:    Calculating math sizes for size <36.135> on input line 9.
+(Font)              scaled to size 36.135pt on input line 8.
+LaTeX Font Info:    Calculating math sizes for size <36.135> on input line 8.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 36.135pt on input line 9.
+(Font)              scaled to size 36.135pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 26.37839pt on input line 9.
+(Font)              scaled to size 26.37839pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 19.87434pt on input line 9.
+(Font)              scaled to size 19.87434pt on input line 8.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 36.135pt on input line 9.
+(Font)              scaled to size 36.135pt on input line 8.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 26.37839pt on input line 9.
+(Font)              scaled to size 26.37839pt on input line 8.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 19.87434pt on input line 9.
-[1.1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              scaled to size 19.87434pt on input line 8.
+ [1.1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./pictures/case_study_icde/case_study_overview.pdf>]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 41.
+surrounding objects on input line 10.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 10.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 10.
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 45.
 
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 49.
+surrounding objects on input line 53.
 
 
-Overfull \hbox (15.76747pt too wide) in paragraph at lines 60--62
+Overfull \hbox (15.76747pt too wide) in paragraph at lines 64--66
 \T1/LinuxLibertineT-TLF/m/n/9 (-20) ure []1[]. Fig-ure []1[](D) and (E) are the
  vi-su-al-iza-tions pro-duced by $[][]$
  []
@@ -1096,10 +1096,10 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 27.
 
 
-Underfull \vbox (badness 6625) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 46.
+(Font)              scaled to size 7.0pt on input line 28.
  [2.2]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
@@ -1109,7 +1109,7 @@ surrounding objects on input line 47.
 
 pdfTeX warning: pdflatex.exe (file ./pictures/problemsolveing/RenderedPixels.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pictures/problemsolveing/RenderedPixels.pdf, id=227, 831.65405pt x 498.99222pt
+<pictures/problemsolveing/RenderedPixels.pdf, id=237, 831.65405pt x 498.99222pt
 >
 File: pictures/problemsolveing/RenderedPixels.pdf Graphic file (type pdf)
 <use pictures/problemsolveing/RenderedPixels.pdf>
@@ -1138,15 +1138,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 33.
-)
-(./sections/ProblemSolving.tex
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 36.135pt on input line 1.
+(Font)              scaled to size 36.135pt on input line 56.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 26.37839pt on input line 1.
+(Font)              scaled to size 26.37839pt on input line 56.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 19.87434pt on input line 1.
- [3.3 <./pictures/problemsolveing/RenderedPixels.pdf>]
+(Font)              scaled to size 19.87434pt on input line 56.
+ [3.3 <./pictures/problemsolveing/RenderedPixels.pdf>]) (./sections/ProblemSolv
+ing.tex
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -1182,7 +1181,7 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 
 pdfTeX warning: pdflatex.exe (file ./pictures/1st.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<pictures/1st.pdf, id=283, 216.81pt x 172.2435pt>
+<pictures/1st.pdf, id=292, 216.81pt x 172.2435pt>
 File: pictures/1st.pdf Graphic file (type pdf)
 <use pictures/1st.pdf>
 Package pdftex.def Info: pictures/1st.pdf  used on input line 103.
@@ -1191,7 +1190,7 @@ Package pdftex.def Info: pictures/1st.pdf  used on input line 103.
 
 pdfTeX warning: pdflatex.exe (file ./pictures/2nd.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<pictures/2nd.pdf, id=284, 216.81pt x 172.2435pt>
+<pictures/2nd.pdf, id=293, 216.81pt x 172.2435pt>
 File: pictures/2nd.pdf Graphic file (type pdf)
 <use pictures/2nd.pdf>
 Package pdftex.def Info: pictures/2nd.pdf  used on input line 105.
@@ -1203,6 +1202,11 @@ Class acmart Warning: A possible image without description on input line 115.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 118.
 
+[4.4 <./pictures/1st.pdf> <./pictures/2nd.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/2nd.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 156.
@@ -1215,24 +1219,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 156.
 
-<pictures/motivation_VQGS.pdf, id=297, 844.15375pt x 804.00375pt>
+<pictures/motivation_VQGS.pdf, id=362, 844.15375pt x 804.00375pt>
 File: pictures/motivation_VQGS.pdf Graphic file (type pdf)
 <use pictures/motivation_VQGS.pdf>
 Package pdftex.def Info: pictures/motivation_VQGS.pdf  used on input line 162.
 (pdftex.def)             Requested size: 72.3999pt x 68.94669pt.
-<pictures/motivation_VQGS+d64.pdf, id=298, 836.12375pt x 804.00375pt>
+<pictures/motivation_VQGS+d64.pdf, id=363, 836.12375pt x 804.00375pt>
 File: pictures/motivation_VQGS+d64.pdf Graphic file (type pdf)
 <use pictures/motivation_VQGS+d64.pdf>
 Package pdftex.def Info: pictures/motivation_VQGS+d64.pdf  used on input line 1
 64.
 (pdftex.def)             Requested size: 72.3999pt x 69.60916pt.
-<pictures/motivation_VQGS+d64CE.pdf, id=299, 840.13875pt x 804.00375pt>
+<pictures/motivation_VQGS+d64CE.pdf, id=364, 840.13875pt x 804.00375pt>
 File: pictures/motivation_VQGS+d64CE.pdf Graphic file (type pdf)
 <use pictures/motivation_VQGS+d64CE.pdf>
 Package pdftex.def Info: pictures/motivation_VQGS+d64CE.pdf  used on input line
  166.
 (pdftex.def)             Requested size: 72.3999pt x 69.27792pt.
-<pictures/zoomlevel.pdf, id=300, 1204.5pt x 803.0pt>
+<pictures/zoomlevel.pdf, id=365, 1204.5pt x 803.0pt>
 File: pictures/zoomlevel.pdf Graphic file (type pdf)
 <use pictures/zoomlevel.pdf>
 Package pdftex.def Info: pictures/zoomlevel.pdf  used on input line 179.
@@ -1244,14 +1248,6 @@ Class acmart Warning: A possible image without description on input line 185.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 193.
 
-
-Underfull \vbox (badness 3942) has occurred while \output is active []
-
- [4.4 <./pictures/1st.pdf> <./pictures/2nd.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/2nd.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 201.
@@ -1273,28 +1269,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[5.5 <./pictures/motivation_VQGS.pdf> <./pictures/motivation_VQGS+d64.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/motivation_VQGS+d64.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./pictures/motivation_VQGS+d64CE.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/motivation_VQGS+d64CE.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
-> <./pictures/zoomlevel.pdf
-
-pdfTeX warning: pdflatex.exe (file ./pictures/zoomlevel.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 5.
 
-
+[5.5]
 
 pdfTeX warning: pdflatex.exe (file ./pictures/cheetahtraj.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<pictures/cheetahtraj.pdf, id=452, 610.78592pt x 417.97054pt>
+<pictures/cheetahtraj.pdf, id=397, 610.78592pt x 417.97054pt>
 File: pictures/cheetahtraj.pdf Graphic file (type pdf)
 <use pictures/cheetahtraj.pdf>
 Package pdftex.def Info: pictures/cheetahtraj.pdf  used on input line 15.
@@ -1306,7 +1289,19 @@ Class acmart Warning: A possible image without description on input line 20.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 57.
 
-) (./sections/Evaluation.tex [6.6 <./pictures/cheetahtraj.pdf>]
+[6.6 <./pictures/motivation_VQGS.pdf> <./pictures/motivation_VQGS+d64.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/motivation_VQGS+d64.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./pictures/motivation_VQGS+d64CE.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/motivation_VQGS+d64CE.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./pictures/zoomlevel.pdf
+
+pdfTeX warning: pdflatex.exe (file ./pictures/zoomlevel.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./pictures/cheetahtraj.pdf>]) (./sections/Evaluation.tex
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 9.
@@ -1321,7 +1316,7 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 33.
 
 (./sections/Evaluation_case_study.tex
-<pictures/case_study_icde/case_study_detail.pdf, id=536, 6797.03378pt x 1826.40
+<pictures/case_study_icde/case_study_detail.pdf, id=547, 6797.03378pt x 1826.40
 338pt>
 File: pictures/case_study_icde/case_study_detail.pdf Graphic file (type pdf)
 <use pictures/case_study_icde/case_study_detail.pdf>
@@ -1332,7 +1327,7 @@ n input line 7.
 
 Class acmart Warning: A possible image without description on input line 13.
 
-<pictures/user_study/user_study.pdf, id=537, 991.27339pt x 274.30682pt>
+<pictures/user_study/user_study.pdf, id=548, 991.27339pt x 274.30682pt>
 File: pictures/user_study/user_study.pdf Graphic file (type pdf)
 <use pictures/user_study/user_study.pdf>
 Package pdftex.def Info: pictures/user_study/user_study.pdf  used on input line
@@ -1350,10 +1345,6 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 40.
 
 
-Underfull \vbox (badness 7740) has occurred while \output is active []
-
-
-
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 45.
 
@@ -1366,11 +1357,13 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 69.
 
 ) (./sections/Evaluation_user_study.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7.7]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 34.
 
-[7.7]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 42.
@@ -1379,8 +1372,12 @@ surrounding objects on input line 42.
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 53.
 
-) (./sections/Evaluation_quantitative_evaluation.tex
-<pictures/quantitative_study/samplerate_vq/sr_vq.pdf, id=584, 963.48053pt x 269
+
+Underfull \vbox (badness 5105) has occurred while \output is active []
+
+)
+(./sections/Evaluation_quantitative_evaluation.tex
+<pictures/quantitative_study/samplerate_vq/sr_vq.pdf, id=596, 963.48053pt x 269
 .54802pt>
 File: pictures/quantitative_study/samplerate_vq/sr_vq.pdf Graphic file (type pd
 f)
@@ -1392,7 +1389,7 @@ sed on input line 5.
 
 Class acmart Warning: A possible image without description on input line 10.
 
-<pictures/quantitative_study/quality_time/quality_time.pdf, id=585, 940.06812pt
+<pictures/quantitative_study/quality_time/quality_time.pdf, id=597, 940.06812pt
  x 275.79437pt>
 File: pictures/quantitative_study/quality_time/quality_time.pdf Graphic file (t
 ype pdf)
@@ -1404,7 +1401,7 @@ pdf  used on input line 15.
 Class acmart Warning: A possible image without description on input line 20.
 
 <pictures/quantitative_study/regionsize_response_time/regionsize_time.pdf, id=5
-86, 940.3471pt x 277.26787pt>
+98, 940.3471pt x 277.26787pt>
 File: pictures/quantitative_study/regionsize_response_time/regionsize_time.pdf 
 Graphic file (type pdf)
 <use pictures/quantitative_study/regionsize_response_time/regionsize_time.pdf>
@@ -1417,7 +1414,7 @@ Class acmart Warning: A possible image without description on input line 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/quantitative_study/rate_cost/rate_cost_c2.pdf, id=587, 639.27731pt x 
+<pictures/quantitative_study/rate_cost/rate_cost_c2.pdf, id=599, 639.27731pt x 
 271.63985pt>
 File: pictures/quantitative_study/rate_cost/rate_cost_c2.pdf Graphic file (type
  pdf)
@@ -1436,24 +1433,26 @@ Class acmart Warning: \vspace should only be used to provide space above/below
 surrounding objects on input line 51.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8.8 <./pictures/case_study_icde/case_study_detail.pdf> <./pictures/user_study
+/user_study.pdf>]
+
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 71.
 
-[8.8 <./pictures/case_study_icde/case_study_detail.pdf> <./pictures/user_study/
-user_study.pdf>]
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
 surrounding objects on input line 85.
 
-)) (./sections/ConclusionFutureWork.tex) (./sigir_CheetahTraj.bbl [9.9 <./pictu
-res/quantitative_study/samplerate_vq/sr_vq.pdf> <./pictures/quantitative_study/
-quality_time/quality_time.pdf> <./pictures/quantitative_study/regionsize_respon
-se_time/regionsize_time.pdf> <./pictures/quantitative_study/rate_cost/rate_cost
-_c2.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)) (./sections/ConclusionFutureWork.tex
+Underfull \vbox (badness 1320) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1910) in paragraph at lines 493--501
+ [9.9 <./pictures/quantitative_study/samplerate_vq/sr_vq.pdf> <./pictures/quant
+itative_study/quality_time/quality_time.pdf> <./pictures/quantitative_study/reg
+ionsize_response_time/regionsize_time.pdf> <./pictures/quantitative_study/rate_
+cost/rate_cost_c2.pdf>]) (./sigir_CheetahTraj.bbl
+Underfull \hbox (badness 1910) in paragraph at lines 453--461
 \T1/LinuxLibertineT-TLF/m/n/7 (+20) ti-mal Poly-line Sim-pli-fi-ca-tion us-ing 
 the Haus-dorff and Fréchet Dis-tance.
  []
@@ -1476,13 +1475,13 @@ Package rerunfilecheck Info: File `sigir_CheetahTraj.out' has not changed.
 (rerunfilecheck)             Checksum: 827D93C8739EE85E51F15B3D018A009D;2891.
  ) 
 Here is how much of TeX's memory you used:
- 21726 strings out of 478542
- 345980 string characters out of 5854402
- 745955 words of memory out of 5000000
- 38118 multiletter control sequences out of 15000+600000
- 731795 words of font info for 686 fonts, out of 8000000 for 9000
+ 21707 strings out of 478542
+ 345725 string characters out of 5854402
+ 747877 words of memory out of 5000000
+ 38106 multiletter control sequences out of 15000+600000
+ 731522 words of font info for 684 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 85i,16n,131p,1600b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,17n,131p,1600b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{c:/tex
 live/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_omcwp2.enc}{c:/texlive/2021
 /texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{c:/texlive/2021/texmf-di
@@ -1507,10 +1506,10 @@ lic/libertine/LinLibertineTI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
 e/2021/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2021/texmf-di
 st/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 /public/newtx/txsys.pfb>
-Output written on sigir_CheetahTraj.pdf (10 pages, 7707877 bytes).
+Output written on sigir_CheetahTraj.pdf (10 pages, 7709041 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 820 PDF objects out of 1000 (max. 8388607)
+ 647 compressed objects within 7 object streams
+ 109 named destinations out of 1000 (max. 500000)
  175340 words of extra memory for PDF output out of 184870 (max. 10000000)
 

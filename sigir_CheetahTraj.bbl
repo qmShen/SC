@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{50}
+\begin{thebibliography}{46}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,15 +37,6 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{??}{cd}{2020}]%
-        {cd}
- \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Chengdu dataset}.
-\newblock
-  \bibinfo{howpublished}{\url{https://outreach.didichuxing.com/app-vue/dataList}}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{??}{fit}{2020}]%
         {fitts_click}
  \bibinfo{year}{2020}\natexlab{}.
@@ -71,29 +62,11 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{??}{pt}{2020}]%
-        {pt}
- \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Porto dataset}.
-\newblock
-  \bibinfo{howpublished}{\url{http://www.geolink.pt/ecmlpkdd2015-challenge/dataset.html}}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{??}{sz}{2020}]%
         {sz}
  \bibinfo{year}{2020}\natexlab{}.
 \newblock \bibinfo{title}{Shenzhen dataset}.
 \newblock \bibinfo{howpublished}{{http://jtys.sz.gov.cn/}}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{??}{cod}{2020}]%
-        {code}
- \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Source code}.
-\newblock
-  \bibinfo{howpublished}{\url{https://github.com/ChrisZcu/CheetahTraj}}.
 \newblock
 
 
@@ -271,19 +244,6 @@
 \newblock \showarticletitle{Sample + Seek: Approximating Aggregates with
   Distribution Precision Guarantee}. In \bibinfo{booktitle}{\emph{SIGMOD}}.
   \bibinfo{pages}{679--694}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Dong, Bai, Kim, Chen, Liu, and Li}{Dong
-  et~al\mbox{.}}{2020}]%
-        {dong2020marviq}
-\bibfield{author}{\bibinfo{person}{Liming Dong}, \bibinfo{person}{Qiushi Bai},
-  \bibinfo{person}{Taewoo Kim}, \bibinfo{person}{Taiji Chen},
-  \bibinfo{person}{Weidong Liu}, {and} \bibinfo{person}{Chen Li}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Marviq: Quality-Aware Geospatial Visualization of
-  Range-Selection Queries Using Materialization}. In
-  \bibinfo{booktitle}{\emph{SIGMOD}}. \bibinfo{pages}{67--82}.
 \newblock
 
 
@@ -557,18 +517,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Yang, Zhang, Tang, and Zhu}{Yang
-  et~al\mbox{.}}{2019}]%
-        {yang2019vaite}
-\bibfield{author}{\bibinfo{person}{Chuang Yang}, \bibinfo{person}{Yilan Zhang},
-  \bibinfo{person}{Bo Tang}, {and} \bibinfo{person}{Min Zhu}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Vaite: A Visualization-Assisted Interactive Big
-  Urban Trajectory Data Exploration System}. In
-  \bibinfo{booktitle}{\emph{ICDE}}. \bibinfo{pages}{2036--2039}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Yang, Zhao, and Lu}{Yang
   et~al\mbox{.}}{2016}]%
         {yang2016exploring}
@@ -588,6 +536,20 @@
 \newblock \showarticletitle{Turbocharging Geospatial Visualization Dashboards
   via a Materialized Sampling Cube Approach}. In
   \bibinfo{booktitle}{\emph{ICDE}}. \bibinfo{pages}{1165--1176}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zeng, Fu, Arisona, Erath, and Qu}{Zeng
+  et~al\mbox{.}}{2014}]%
+        {zeng2014visualizing}
+\bibfield{author}{\bibinfo{person}{Wei Zeng}, \bibinfo{person}{Chi-Wing Fu},
+  \bibinfo{person}{Stefan~M{\"u}ller Arisona}, \bibinfo{person}{Alexander
+  Erath}, {and} \bibinfo{person}{Huamin Qu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Visualizing mobility of public transportation
+  system}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
+  computer graphics}} \bibinfo{volume}{20}, \bibinfo{number}{12}
+  (\bibinfo{year}{2014}), \bibinfo{pages}{1833--1842}.
 \newblock
 
 
